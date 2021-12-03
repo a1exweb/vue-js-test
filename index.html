@@ -5,7 +5,11 @@
     <title>Test</title>
 </head>
 <body>
-    
+    <div id="app">
+        <ul v-for="vue in names">
+            <li>{{  vue.name  }}</li>
+        </ul>
+    </div>
     <script src="js/vue.min.js"></script>
     <script src="js/axios.min.js"></script>
     <script src="js/main.js"></script>
